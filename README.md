@@ -1,0 +1,1 @@
+My LAMMPS projects would be done in this repository. I might eventually do my projects in multiple repos and rename this directory as well, since I am still figuring things out.
