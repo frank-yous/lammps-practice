@@ -32,6 +32,7 @@ variable kinetic_energy equal ke
 variable potential_energy equal pe
 variable pressure equal press
 fix myat1 all ave/time 10 1 10 v_kinetic_energy v_potential_energy file energy.dat
+dump mydmp all atom 1000 dump.lammpstrj
 
 # 5) Run
 fix mynve all nve
